@@ -51,7 +51,9 @@ var response_bank = {
 };
   
 
-$(".status-codes a").on ("click", function(){
+$(".status-codes a").on ("click", function(e){
+  e.preventDefault();
+
   var response_status = $(this).text();
   $(".response-text").text("HTTP/1.1 " + response_status);
   $(".response-text + p").text(response_bank[response_status]);
