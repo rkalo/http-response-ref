@@ -1,0 +1,91 @@
+/*base*/
+body {
+  background: forestgreen;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.group:before, .group:after {
+  content:"";
+  display: table;
+}
+
+.group:after {
+  clear:both;
+}
+
+ul {
+	list-style-type:none;
+}
+
+a {
+  text-decoration:none;
+}
+
+/*typography*/
+h1,
+h2,
+h3,
+h4,
+h5
+h6,
+p,
+a
+{
+  font-family: 'Lato', serif;
+  color:white;
+  text-align: center;
+  margin: 0;
+}
+
+.jumbotron h1 {
+  font-size: 5em;
+}
+
+.jumbotron p {
+  margin-top: 2em;
+}
+
+.status-codes a {
+  line-height: 2em;
+}
+
+/*modules*/
+.jumbotron {
+  padding: 150px 0;
+}
+
+.responses section {
+  width: 560px;
+  margin: 0 auto;
+}
+
+.status-range {
+  float: left;
+}
+
+.status-codes {
+  width: 400px;
+  float:left;
+}
+
+/*components*/
+.stat-range h2,
+.stat-range h3,
+.stat-range h4,
+.stat-range h5 {
+  float:left;
+  width: 100px;
+  line-height: 2.5em;
+}
+
+.status-codes li {
+	display:inline-block;
+  width: 25px;
+  margin: auto 10px;
+}
+
+/*events*/
