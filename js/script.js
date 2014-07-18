@@ -2,7 +2,7 @@ var color_bank = {
   1: "steelblue",
   2: "forestgreen",
   3: "goldenrod",
-  4: "darkred",
+  4: "tomato",
   5: "chocolate"
 };
 
